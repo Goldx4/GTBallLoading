@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "GTBallSpinLoading.h"
-#import "GTBallSwitchLoading.h"
+#import "TestViewController.h"
 
 @interface ViewController ()
 
@@ -19,20 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"hide" style:UIBarButtonItemStylePlain target:self action:@selector(hide)];
+    self.clearsSelectionOnViewWillAppear = YES;
 }
 
-- (IBAction)showSpinLoading:(UIButton *)sender {
-    [GTBallSpinLoading showInView:self.view];
-}
-
-- (IBAction)showSwitchLoading:(id)sender {
-    [GTBallSwitchLoading showInView:self.view];
-}
-
-- (void)hide {
-    [GTBallSpinLoading hideInView:self.view];
-    [GTBallSwitchLoading hideInView:self.view];
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    // push to test view
+    TestViewController *vc = [[TestViewController alloc] init];
+    vc.style = indexPath.row;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

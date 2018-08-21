@@ -7,17 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53122085212BF0720018017F /* GTAnimDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53122084212BF0720018017F /* GTAnimDelegate.m */; };
+		53122088212BF94A0018017F /* GTBallLoadingArcSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 53122087212BF94A0018017F /* GTBallLoadingArcSwitch.m */; };
+		5312208B212BF9F00018017F /* GTBallLoadingArcRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5312208A212BF9F00018017F /* GTBallLoadingArcRotate.m */; };
+		5312208E212BF9FF0018017F /* GTBallLoadingHorizontalSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5312208D212BF9FF0018017F /* GTBallLoadingHorizontalSwitch.m */; };
 		532BCFF021114E1B00953BDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BCFEF21114E1B00953BDC /* AppDelegate.m */; };
 		532BCFF321114E1B00953BDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BCFF221114E1B00953BDC /* ViewController.m */; };
 		532BCFF621114E1B00953BDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532BCFF421114E1B00953BDC /* Main.storyboard */; };
 		532BCFF821114E1C00953BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 532BCFF721114E1C00953BDC /* Assets.xcassets */; };
 		532BCFFB21114E1C00953BDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532BCFF921114E1C00953BDC /* LaunchScreen.storyboard */; };
 		532BCFFE21114E1C00953BDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BCFFD21114E1C00953BDC /* main.m */; };
-		532BD00A21119C8600953BDC /* GTBallSpinLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BD00921119C8600953BDC /* GTBallSpinLoading.m */; };
-		532BD01321119D7A00953BDC /* GTBallSwitchLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BD01221119D7A00953BDC /* GTBallSwitchLoading.m */; };
+		53629802211C082A00A5F137 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53629801211C082A00A5F137 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53122083212BF0720018017F /* GTAnimDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTAnimDelegate.h; sourceTree = "<group>"; };
+		53122084212BF0720018017F /* GTAnimDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAnimDelegate.m; sourceTree = "<group>"; };
+		53122086212BF94A0018017F /* GTBallLoadingArcSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTBallLoadingArcSwitch.h; sourceTree = "<group>"; };
+		53122087212BF94A0018017F /* GTBallLoadingArcSwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTBallLoadingArcSwitch.m; sourceTree = "<group>"; };
+		53122089212BF9F00018017F /* GTBallLoadingArcRotate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTBallLoadingArcRotate.h; sourceTree = "<group>"; };
+		5312208A212BF9F00018017F /* GTBallLoadingArcRotate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTBallLoadingArcRotate.m; sourceTree = "<group>"; };
+		5312208C212BF9FF0018017F /* GTBallLoadingHorizontalSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTBallLoadingHorizontalSwitch.h; sourceTree = "<group>"; };
+		5312208D212BF9FF0018017F /* GTBallLoadingHorizontalSwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTBallLoadingHorizontalSwitch.m; sourceTree = "<group>"; };
 		532BCFEB21114E1B00953BDC /* GTBallLoadingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTBallLoadingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		532BCFEE21114E1B00953BDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		532BCFEF21114E1B00953BDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,10 +39,8 @@
 		532BCFFA21114E1C00953BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		532BCFFC21114E1C00953BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		532BCFFD21114E1C00953BDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		532BD00821119C8600953BDC /* GTBallSpinLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTBallSpinLoading.h; sourceTree = "<group>"; };
-		532BD00921119C8600953BDC /* GTBallSpinLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTBallSpinLoading.m; sourceTree = "<group>"; };
-		532BD01121119D7A00953BDC /* GTBallSwitchLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTBallSwitchLoading.h; sourceTree = "<group>"; };
-		532BD01221119D7A00953BDC /* GTBallSwitchLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTBallSwitchLoading.m; sourceTree = "<group>"; };
+		53629800211C082A00A5F137 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		53629801211C082A00A5F137 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +78,8 @@
 				532BCFEF21114E1B00953BDC /* AppDelegate.m */,
 				532BCFF121114E1B00953BDC /* ViewController.h */,
 				532BCFF221114E1B00953BDC /* ViewController.m */,
+				53629800211C082A00A5F137 /* TestViewController.h */,
+				53629801211C082A00A5F137 /* TestViewController.m */,
 				532BCFF421114E1B00953BDC /* Main.storyboard */,
 				532BCFF721114E1C00953BDC /* Assets.xcassets */,
 				532BCFF921114E1C00953BDC /* LaunchScreen.storyboard */,
@@ -81,10 +92,14 @@
 		532BD00421114F4400953BDC /* GTBallLoading */ = {
 			isa = PBXGroup;
 			children = (
-				532BD00821119C8600953BDC /* GTBallSpinLoading.h */,
-				532BD00921119C8600953BDC /* GTBallSpinLoading.m */,
-				532BD01121119D7A00953BDC /* GTBallSwitchLoading.h */,
-				532BD01221119D7A00953BDC /* GTBallSwitchLoading.m */,
+				53122086212BF94A0018017F /* GTBallLoadingArcSwitch.h */,
+				53122087212BF94A0018017F /* GTBallLoadingArcSwitch.m */,
+				5312208C212BF9FF0018017F /* GTBallLoadingHorizontalSwitch.h */,
+				5312208D212BF9FF0018017F /* GTBallLoadingHorizontalSwitch.m */,
+				53122089212BF9F00018017F /* GTBallLoadingArcRotate.h */,
+				5312208A212BF9F00018017F /* GTBallLoadingArcRotate.m */,
+				53122083212BF0720018017F /* GTAnimDelegate.h */,
+				53122084212BF0720018017F /* GTAnimDelegate.m */,
 			);
 			name = GTBallLoading;
 			path = ../../GTBallLoading;
@@ -160,11 +175,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				532BD01321119D7A00953BDC /* GTBallSwitchLoading.m in Sources */,
+				53629802211C082A00A5F137 /* TestViewController.m in Sources */,
+				5312208E212BF9FF0018017F /* GTBallLoadingHorizontalSwitch.m in Sources */,
 				532BCFF321114E1B00953BDC /* ViewController.m in Sources */,
+				53122085212BF0720018017F /* GTAnimDelegate.m in Sources */,
+				53122088212BF94A0018017F /* GTBallLoadingArcSwitch.m in Sources */,
+				5312208B212BF9F00018017F /* GTBallLoadingArcRotate.m in Sources */,
 				532BCFFE21114E1C00953BDC /* main.m in Sources */,
 				532BCFF021114E1B00953BDC /* AppDelegate.m in Sources */,
-				532BD00A21119C8600953BDC /* GTBallSpinLoading.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
